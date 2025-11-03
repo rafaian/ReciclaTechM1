@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex; //por padrão os itens do container ficam uns aos lados dos outros.
+  border: solid;
+  height: 10vh;
+
+  //espaçamentos:
+  justify-content: space-around; //between(um no canto outro no outro) EVENLY(espaçamento igual), AROUND (epaçamento menor)// alinhamento horizonta, coloca o primeiro item em uma ponta e os outros itens no final
+  align-items: center; //centraliza o texto na caixa mas ao inves do center podemos usar,
+}
+header {
+  h1 {
+    background-color: blueviolet;
+  }
+  nav {
+    background-color: chartreuse;
+  }
+}
+
